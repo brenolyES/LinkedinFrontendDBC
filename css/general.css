@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 /* ----------------Reset-CSS---------------- */
 
 html, body, div, span, applet, object, iframe,
@@ -38,7 +38,10 @@ table {
 /* -----------------Body----------------- */
 
 body {
-	background-color: #F7F9FB;
+	background-color: #E5E5E5;
+	height: 2000px;
+	font-family: 'Roboto' , sans-serif;
+	padding-bottom: 10rem;
 }
 /* ----------------Header---------------- */
 
@@ -96,3 +99,62 @@ header .headerLeft {
 }
 
 /* ----------------Footer---------------- */
+
+footer{
+
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	background-color: #E5E5E5;
+	border-top: 2px solid #466da1;
+}
+
+footer .footer-container{
+	display: flex;
+	max-width: 1200px;
+	height: 180px;
+	margin: 2rem auto;
+	border: 2px solid red;
+}
+
+footer .footer-container p{
+	color: #181818;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+footer .footer-container span{
+	color: #0275B1;
+}
+
+footer h4{
+	display: inline-block;
+	margin-bottom: 1.5rem;
+}
+
+footer .container-navigation{
+	margin-left: 4rem;
+	width: 500px;
+}
+
+footer .container-navigation ul{
+	border: 2px solid black;
+	max-height: 150px;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+footer .container-navigation ul li{
+	margin: 0.5px;
+}
+
+
+footer .container-navigation a{
+	text-decoration: none;
+	color: #181818;
+}
