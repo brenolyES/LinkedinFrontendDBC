@@ -28,7 +28,6 @@
 
 .aside-container {
     display: flex;
-    height: 360px;
     /* background-color: rgb(128, 128, 128); */
     flex-direction: column;
     width: 310px;
@@ -145,6 +144,7 @@ main .about p{
 main  .about a{
     text-decoration: none;
     color: #0275B1;
+    font-weight: 600;
 }
 
 main .about a:hover{
@@ -165,6 +165,7 @@ main .projects a{
     text-decoration: none;
     margin-left: 10px;
     color: var(--primary-color);
+    font-weight: 600;
 }
 
 main .projects a:hover{
@@ -194,3 +195,50 @@ main .cards img{
 main .projects .align h3{
     margin-right: 15px;
 }
+
+main .projects .align span{
+    color: #747474;
+}
+
+
+main .skills{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+main .skills a{
+    margin-top: 100px;
+    color: var(--primary-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+main .skills a:hover{
+    filter: brightness(0.5);
+    text-decoration: underline;
+}
+
+
+main .skills-cards{
+    margin: 25px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+main .skills-cards div{
+    margin-left: 20px;
+    border: 1px solid red;
+    padding: 20px;
+
+    border: 1px solid #d4d4d4;
+    border-radius: 6px;
+}
+
+main .skills-cards div:hover{
+    outline: 1px solid rgb(190, 190, 190);
+}
+
