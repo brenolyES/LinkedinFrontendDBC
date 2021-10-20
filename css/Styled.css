@@ -105,7 +105,7 @@ main section .profile-title {
 
 main .feed-buttons{
     border-bottom: 1px solid rgb(209, 209, 209);
-    margin: 21px 0;
+    margin-top: 21px;
 }
 
 main .feed-buttons button{
@@ -114,13 +114,13 @@ main .feed-buttons button{
     background-color: #FFFFFF;
     border: none;
     font-weight: 600;
+    transition: background-color 0.3s;
+    border-radius: 4px 4px 0 0;
 }
 
 
 main .feed-buttons button:hover{
-    height: 50px;
     background-color: #0077B5;
-    border-radius: 4px 4px 0 0;
     color: #fff;
 }
 
@@ -128,7 +128,6 @@ main  .about{
     background-color: #fff;
     width: 100%;
     height: 170px;
-    margin-top: 30px;
     padding: 20px;
     border-radius: 4px;
 }
