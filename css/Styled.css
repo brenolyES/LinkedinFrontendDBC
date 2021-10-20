@@ -242,3 +242,97 @@ main .skills-cards div:hover{
     outline: 1px solid rgb(190, 190, 190);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+/* ------------Aside------------ */
+
+aside .aside-container .dashboard-container {
+    background-color: white;
+    width: 290px;
+    height: 360px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+aside .dashboard {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+aside .dashboard .title {
+    display: flex;
+    font-size: 14px;
+}
+
+aside .aside-container .dashboard .title h4:last-child {
+    color: var(--primary-color);
+    margin-left: 27px;
+}
+
+aside .aside-container .dashboard .views {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+aside .aside-container .visitors {
+    background-color: white;
+    width: 290px;
+    height: 427px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+aside .aside-container .courses {
+    background-color: cadetblue;
+    width: 290px;
+    height: 338px;
+    border-radius: 4px;
+}
+
+aside .dashboard h1 {
+    color: var(--primary-color);
+    font-size: 48px;
+    margin-top: 10px;
+}
+
+aside .dashboard-container {
+    display: flex;
+}
+
+aside .visitors .title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+}
+
+aside .visitors .title h4:last-child {
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+aside .visitors {
+    padding: 20px;
+}
+
+aside .visitors .cards {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 10px 0;
+}
+
+aside .visitors .cards img{
+    margin-right: 15px;
+}
