@@ -23,6 +23,10 @@ ol, ul {
 	list-style: none;
 }
 
+:root{
+	--primary-color: #0275B1
+}
+
 /* -----------------Body----------------- */
 
 body {
