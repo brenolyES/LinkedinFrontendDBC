@@ -23,6 +23,7 @@
     width: 100%;
     height: 360px;
     background-image: url('../img/capa.jpg');
+    border-radius: 4px;
     
 }
 
@@ -105,7 +106,7 @@ main section .profile-title {
 
 main .feed-buttons{
     border-bottom: 1px solid rgb(209, 209, 209);
-    margin: 21px 0;
+    margin-top: 21px;
 }
 
 main .feed-buttons button{
@@ -114,13 +115,13 @@ main .feed-buttons button{
     background-color: #FFFFFF;
     border: none;
     font-weight: 600;
+    transition: background-color 0.3s;
+    border-radius: 4px 4px 0 0;
 }
 
 
 main .feed-buttons button:hover{
-    height: 50px;
     background-color: #0077B5;
-    border-radius: 4px 4px 0 0;
     color: #fff;
 }
 
@@ -128,7 +129,6 @@ main  .about{
     background-color: #fff;
     width: 100%;
     height: 170px;
-    margin-top: 30px;
     padding: 20px;
     border-radius: 4px;
 }
@@ -144,6 +144,7 @@ main .about p{
 main  .about a{
     text-decoration: none;
     color: #0275B1;
+    font-weight: 600;
 }
 
 main .about a:hover{
@@ -164,6 +165,7 @@ main .projects a{
     text-decoration: none;
     margin-left: 10px;
     color: var(--primary-color);
+    font-weight: 600;
 }
 
 main .projects a:hover{
@@ -192,6 +194,52 @@ main .cards img{
 
 main .projects .align h3{
     margin-right: 15px;
+}
+
+main .projects .align span{
+    color: #747474;
+}
+
+
+main .skills{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+main .skills a{
+    margin-top: 100px;
+    color: var(--primary-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+main .skills a:hover{
+    filter: brightness(0.5);
+    text-decoration: underline;
+}
+
+
+main .skills-cards{
+    margin: 25px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+main .skills-cards div{
+    margin-left: 20px;
+    border: 1px solid red;
+    padding: 20px;
+
+    border: 1px solid #d4d4d4;
+    border-radius: 6px;
+}
+
+main .skills-cards div:hover{
+    outline: 1px solid rgb(190, 190, 190);
 }
 
 
