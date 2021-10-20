@@ -6,7 +6,8 @@
     max-width: 1200px;
     margin:  0 auto 10rem;
     height: 100%;
-    border: 1px solid black;
+    border-radius: 4px;
+    /* border: 1px solid black; */
     
 }
 
@@ -14,7 +15,8 @@
     display: flex;
     width: 850px;
     margin-right: 39px;
-    background-color: rgb(202, 55, 55);
+    /* background-color: rgb(202, 55, 55); */
+    border-radius: 4px;
 }
 
 .user-profile {
@@ -27,7 +29,7 @@
 .aside-container {
     display: flex;
     height: 360px;
-    background-color: rgb(128, 128, 128);
+    /* background-color: rgb(128, 128, 128); */
     flex-direction: column;
     width: 310px;
 }
@@ -81,9 +83,18 @@ main section .user-info {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #fff;
+    margin-top: 120px;
+    border-radius: 4px;
 }
 
 main section .profile-title {
     display: flex;
+    width: 100%;
     justify-content: space-between;
+    border: 2px solid red;
+}
+
+main section .profile-description{
+    flex-direction: column;
 }
