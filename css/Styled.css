@@ -25,12 +25,6 @@
     
 }
 
-.aside-container {
-    display: flex;
-    /* background-color: rgb(128, 128, 128); */
-    flex-direction: column;
-    width: 310px;
-}
 
 main section .icons {
     display: flex;
@@ -48,7 +42,13 @@ main .icons button {
     border-radius: 4px;
     margin-right: 10px;
     border: none;
+    cursor: pointer;
 }
+
+.icons .fas{
+    cursor: pointer;
+}
+
 
 main .icons div {
     display: flex;
@@ -337,6 +337,13 @@ main .blue small{
 
 
 /* ------------Aside------------ */
+
+.aside-container {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+}
+
 
 aside .aside-container .dashboard-container {
     background-color: white;
