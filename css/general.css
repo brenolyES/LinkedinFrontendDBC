@@ -107,7 +107,16 @@ header nav a {
 
 header .logo {
 	margin-left: 40px;
-	margin-right: 85px;
+	padding-right: 85px;
+	padding-top: 18px;
+	border-right: 1px solid #ccc;
+}
+
+header .search {
+	display: flex;
+	align-items: center;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
 }
 
 header .other {
@@ -116,8 +125,12 @@ header .other {
 
 header .headerLeft, header .headerRight {
 	display: flex;
-	align-items: center;
 	flex-wrap: wrap;
+}
+
+header nav ul div a small:hover {
+	filter: contrast(0.7);
+	text-decoration: underline;
 }
 
 header .search form a i {
