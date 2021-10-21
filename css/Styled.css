@@ -276,6 +276,10 @@ main .skills-cards{
 
 }
 
+main .skills-cards h4{
+    margin-bottom: 5px;
+}
+
 main .skills-cards div{
     margin-left: 20px;
     border: 1px solid red;
@@ -337,14 +341,6 @@ main .blue small{
     color: var(--primary-color);
     font-weight: 600;
 }
-
-
-
-
-
-
-
-
 
 
 /* ------------Aside------------ */
