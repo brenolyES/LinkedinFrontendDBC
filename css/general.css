@@ -38,7 +38,6 @@ body {
 header {
 	display: flex;
 	background-color: white;
-	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-bottom: 40px;
 }
@@ -125,7 +124,6 @@ header .other {
 
 header .headerLeft, header .headerRight {
 	display: flex;
-	flex-wrap: wrap;
 }
 
 header nav ul div a small:hover {
@@ -170,7 +168,6 @@ footer{
 footer .footer-container{
 	display: flex;
 	justify-content: space-between;
-	flex-wrap: wrap;
 	max-width: 1200px;
 	margin: 1.5rem auto;
 }
@@ -272,8 +269,3 @@ footer .container-lang select{
 	
 	outline: 1px solid #F0F0F0;
 }
-
-
-
-
-
