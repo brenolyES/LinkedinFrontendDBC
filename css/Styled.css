@@ -381,3 +381,44 @@ aside .courses div:last-child h4{
 aside .courses div:first-child h4{
     margin-bottom: 10px;
 }
+
+
+/* ------------ Main Education------------ */
+
+.education {
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.education h3 {
+    margin-bottom: 25px;
+}
+
+.education .card {
+    display: flex;
+}
+
+.education .card .conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.education .card .conteudo h4 {
+    margin-bottom: 10px;
+}
+
+.education .card img{
+    margin-right: 16px;
+    width: 54px;
+    height: 54px;
+}
+
+.education .card .conteudo .small1{
+    margin-bottom: 5px;
+}
+
+.education .card .conteudo .small2{
+    margin-bottom: 10px;
+}
