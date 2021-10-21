@@ -163,8 +163,6 @@ header .other i{
 /* -------- Container principal do footer ----- */
 footer{
 	width: 100%;
-	/* position: absolute;
-	bottom: 0; */
 	background-color: #E5E5E5;
 	border-top: 2px solid #ccc;
 }
@@ -174,7 +172,6 @@ footer .footer-container{
 	justify-content: space-between;
 	flex-wrap: wrap;
 	max-width: 1200px;
-	height: 200px;
 	margin: 1.5rem auto;
 }
 
@@ -273,7 +270,7 @@ footer .container-lang select{
 	padding: 0 10px;
 	font-weight: 600;
 	
-	outline: 1PX solid #F0F0F0;
+	outline: 1px solid #F0F0F0;
 }
 
 
