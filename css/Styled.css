@@ -316,6 +316,15 @@ main .experience-box h4{
 
 main .experience-box div span{
     margin-right: 10px;
+    font-size: 13px;
+}
+
+main .experience-box div small {
+    font-size: 12px;
+}
+
+main .experience-box p{
+    font-size: 14px;
 }
 
 main .experience-p{
