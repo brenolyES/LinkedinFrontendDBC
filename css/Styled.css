@@ -300,7 +300,13 @@ main .experience{
 main .experience-box{
     display: flex;
     margin-top: 27px;
+    padding: 30px;
 }
+
+main .box1{
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
 
 main .experience-box img {
     margin-right: 16px;
@@ -310,9 +316,18 @@ main .experience-box h4{
     margin-bottom: 10px;
 }
 
+main .experience-box div span{
+    margin-right: 10px;
+}
 
+main .experience-p{
+    margin-top: 10px;
+}
 
-
+main .blue small{
+    color: var(--primary-color);
+    font-weight: 600;
+}
 
 
 
