@@ -292,10 +292,24 @@ main .skills-cards div:hover{
 main .experience{
     background-color: #fff;
     width: 100%;
-    height: 200px;
     border-radius: 4px;
     margin-top: 20px;
+    padding: 20px;
 }
+
+main .experience-box{
+    display: flex;
+    margin-top: 27px;
+}
+
+main .experience-box img {
+    margin-right: 16px;
+}
+
+main .experience-box h4{
+    margin-bottom: 10px;
+}
+
 
 
 
