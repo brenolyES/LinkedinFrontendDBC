@@ -170,6 +170,10 @@ main .feed-buttons button:first-child{
     color: #fff;
 }
 
+main .feed-buttons button:first-child:hover{
+    filter: brightness(0.9);
+}
+
 main .feed-buttons button:hover{
     background-color: #0077B5;
     color: #fff;
