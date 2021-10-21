@@ -108,14 +108,16 @@ header .logo {
 	margin-left: 40px;
 	padding-right: 85px;
 	padding-top: 18px;
-	border-right: 1px solid #ccc;
+	border-right: 1px solid rgb(236, 236, 236);
 }
 
 header .search {
 	display: flex;
 	align-items: center;
-	border-right: 1px solid #ccc;
-	border-left: 1px solid #ccc;
+	margin-left: 42px;
+	padding-left: 20px;
+	border-right: 1px solid rgb(236, 236, 236);
+	border-left: 1px solid rgb(236, 236, 236);
 }
 
 header .other {
