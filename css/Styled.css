@@ -25,7 +25,6 @@
     
 }
 
-
 main section .icons {
     display: flex;
     justify-content: space-between;
@@ -166,6 +165,10 @@ main .feed-buttons button{
     cursor: pointer;
 }
 
+main .feed-buttons button:first-child{
+    background-color: var(--primary-color);
+    color: #fff;
+}
 
 main .feed-buttons button:hover{
     background-color: #0077B5;
@@ -246,7 +249,6 @@ main .projects .align h3{
 main .projects .align span{
     color: #747474;
 }
-
 
 main .skills{
     width: 100%;
