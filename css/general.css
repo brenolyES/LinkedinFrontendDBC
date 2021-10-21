@@ -114,7 +114,7 @@ header .logo {
 header .search {
 	display: flex;
 	align-items: center;
-	margin-left: 42px;
+	margin-left: 16px;
 	padding-left: 20px;
 	border-right: 1px solid rgb(236, 236, 236);
 	border-left: 1px solid rgb(236, 236, 236);
